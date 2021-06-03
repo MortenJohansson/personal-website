@@ -475,4 +475,33 @@ a :hover {
   margin-top: 25px;
   gap: 25px;
 }
+
+.footer {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 60px;
+  background-color: #333333;
+  padding: 60px 10px;
+}
+
+.footer__socials {
+  gap: 60px;
+}
+
+.footer__logo {
+  height: 90px;
+  width: 90px;
+}
+
+.footer__copyright {
+  color: #e6e6e6;
+}
+
+.fa-linkedin,
+.fa-github-square {
+  font-size: 3rem;
+  color: #e6e6e6;
+}
 /*# sourceMappingURL=styles.css.map */

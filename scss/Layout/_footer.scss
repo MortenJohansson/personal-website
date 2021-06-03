@@ -1,0 +1,25 @@
+.footer {
+  flex-direction: column;
+  gap: 60px;
+  background-color: $secondaryBackground;
+  padding: 60px 10px;
+
+  &__socials {
+    gap: 60px;
+  }
+
+  &__logo {
+    height: 90px;
+    width: 90px;
+  }
+
+  &__copyright {
+    color: $secondaryTextColor;
+  }
+}
+
+.fa-linkedin,
+.fa-github-square {
+  font-size: $font-xll;
+  color: $secondaryTextColor;
+}
