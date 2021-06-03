@@ -24,7 +24,15 @@
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8)
     ),
-    url(/img/reservia.jpg) center center/cover;
+    url("/img/reservia.jpg") center center/cover;
+}
+
+.project2 {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("/img/ohmyfood.jpg") center center/cover;
 }
 
 .fa-html5,
@@ -35,6 +43,7 @@
 }
 
 .buttons {
+  justify-self: center;
   margin-top: 25px;
   gap: 25px;
 }

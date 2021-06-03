@@ -198,13 +198,16 @@ a :hover {
       -ms-flex-align: center;
           align-items: center;
   height: 30px;
-  width: 150px;
+  width: 115px;
   font-size: 1rem;
 }
 
 .card {
-  height: 380px;
-  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 50px 1fr 25px 50px;
+      grid-template-rows: 50px 1fr 25px 50px;
+  min-width: 0;
   padding: 10px;
   border-radius: 25px;
   -webkit-box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.3);
@@ -212,6 +215,8 @@ a :hover {
 }
 
 .card__title {
+  -ms-grid-column-align: center;
+      justify-self: center;
   font-size: 1.875rem;
   color: #3b3b3b;
 }
@@ -222,11 +227,14 @@ a :hover {
 }
 
 .card__technologies {
+  -ms-grid-column-align: center;
+      justify-self: center;
   color: #3b3b3b;
-  padding-bottom: 15px;
 }
 
 .card__technologyIcons {
+  -ms-grid-column-align: center;
+      justify-self: center;
   gap: 15px;
 }
 
@@ -445,8 +453,13 @@ a :hover {
 }
 
 .project1 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url(/img/reservia.jpg) center center/cover;
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(/img/reservia.jpg) center center/cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url("/img/reservia.jpg") center center/cover;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("/img/reservia.jpg") center center/cover;
+}
+
+.project2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url("/img/ohmyfood.jpg") center center/cover;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("/img/ohmyfood.jpg") center center/cover;
 }
 
 .fa-html5,
@@ -457,6 +470,8 @@ a :hover {
 }
 
 .buttons {
+  -ms-grid-column-align: center;
+      justify-self: center;
   margin-top: 25px;
   gap: 25px;
 }

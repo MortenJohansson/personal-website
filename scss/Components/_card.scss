@@ -1,11 +1,13 @@
 .card {
-  height: 380px;
-  width: 100%;
+  display: grid;
+  grid-template-rows: 50px 1fr 25px 50px;
+  min-width: 0;
   padding: 10px;
   border-radius: 25px;
   box-shadow: $box-shadow;
 
   &__title {
+    justify-self: center;
     font-size: 1.875rem;
     color: $primaryTextColor;
   }
@@ -14,10 +16,11 @@
     color: $primaryTextColor;
   }
   &__technologies {
+    justify-self: center;
     color: $primaryTextColor;
-    padding-bottom: 15px;
   }
   &__technologyIcons {
+    justify-self: center;
     gap: 15px;
   }
   &--schoolProject {
