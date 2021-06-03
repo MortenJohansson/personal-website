@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Morten Johansson || Web Developer</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="overlay has-fade"></div>
+      <nav class="header__navbar flex flex-jc-sb flex-ai-c">
+        <!-- Logo -->
+        <img
+          src="assets/img/MJLogo.svg"
+          alt="Morten Johansson Logo"
+          class="header__navImg"
+        />
+        <!-- Hamburger Menu Toggler-->
+        <a id="burgerBtn" href="#" class="header__toggle desktopHide">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+        <!-- Nav Links -->
+        <div class="header__navLinks mobileHide">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#">Projects </a>
+          <a href="#">Technologies</a>
+          <a href="#">Contact</a>
+        </div>
+      </nav>
+      <!-- Overlay menu links -->
+      <div class="header__overlayMenu has-fade">
+        <a href="#" class="overlayNavLink">Home</a>
+        <a href="#about" class="overlayNavLink">About</a>
+        <a href="#" class="overlayNavLink">Projects</a>
+        <a href="#" class="overlayNavLink">Technologies</a>
+        <a href="#" class="overlayNavLink">Contact</a>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero flex flex-jc-c flex-ai-c">
+      <h1 class="hero__title">
+        Hi, I'm Morten.
+        <br />
+        I'm a Web Developer
+      </h1>
+      <button class="button">READ MORE</button>
+    </section>
+    <!-- About Me Section -->
+    <section class="about">
+      <h1 class="about__title">About Morten</h1>
+      <div class="about__imageAndText">
+        <img
+          src="./assets/img/photo-1543013309-0d1f4edeb868.jpg"
+          alt="picture of Morten"
+          class="about__image"
+        />
+        <div class="about__paragraphContainer">
+          <p class="about__infomation">
+            I am a Web developer based in Stavanger, Norway. Where I live with
+            my family of four. My days currently includes wrangling kids and
+            learning code.
+          </p>
+          <p class="about__infomation">
+            I am an extremely curious person by nature, so there won't be a
+            moment where you don't see me trying to learn something new.
+          </p>
+          <p class="about__infomation">
+            This is the reason I love coding, there is just so much to learn. At
+            the moment I wading through the front-end part of the journey with a
+            goal of going Full Stack in the future.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Projects Section -->
+    <section class="projects">
+      <h1 class="projects__heading">Projects</h1>
+      <p class="projects__heading">
+        Here are a couple of my most recent projects
+      </p>
+      <div class="projects__grid grid">
+        <div class="flex flex-jc-c flex-ai-c flex-dir-col project1 card">
+          <h2 class="card__title">Reservia</h2>
+          <p class="card__subTitle">
+            Reservia is a website to look for accommodations and activities on
+            your travels. <br />
+            <span class="card--schoolProject"
+              >(SCHOOL PROJECT FOR OPENCLASSROOMS!)</span
+            >
+          </p>
+          <div class="card__technologies">Technologies used:</div>
+          <div class="card__technologyIcons flex">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <div class="buttons flex">
+            <a
+              href="https://mortenjohansson.github.io/MortenJohansson_1_10072020_A/#"
+              target="_blank"
+              class="button button--cardBtn"
+              >LIVE</a
+            >
+            <a
+              href="https://github.com/MortenJohansson/MortenJohansson_1_10072020_A"
+              target="_blank"
+              class="button button--cardBtn"
+              >GITHUB REPO</a
+            >
+          </div>
+        </div>
+        <div class="flex flex-jc-c flex-ai-c flex-dir-col project1 card">
+          <h2 class="card__title">OHMYFOOD</h2>
+          <p class="card__subTitle">
+            Ohmyfood is an online food ordering company. Which allows users to
+            compose their own menu and reduce waiting time in restaurants
+            because they make their choice in advance. <br />
+            <span class="card--schoolProject"
+              >(SCHOOL PROJECT FOR OPENCLASSROOMS!)</span
+            >
+          </p>
+          <div class="card__technologies">Technologies used:</div>
+          <div class="card__technologyIcons flex">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-sass"></i>
+          </div>
+          <div class="buttons flex">
+            <a
+              href="https://mortenjohansson.github.io/MortenJohansson_1_10072020_A/#"
+              target="_blank"
+              class="button button--cardBtn"
+              >LIVE</a
+            >
+            <a
+              href="https://github.com/MortenJohansson/MortenJohansson_3_12152020_A"
+              target="_blank"
+              class="button button--cardBtn"
+              >GITHUB REPO</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Technologies Section -->
+    <!-- Contact Section -->
+    <!-- Footer -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

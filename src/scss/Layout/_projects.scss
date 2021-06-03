@@ -1,0 +1,40 @@
+.projects {
+  background-color: $secondaryBackground;
+  color: $secondaryTextColor;
+  padding: 60px 10px;
+
+  &__grid {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  &__heading {
+    text-align: center;
+    margin: 0;
+  }
+
+  > p {
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+}
+
+.project1 {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url(/assets/img/ohmyfood.jpg) center center/cover;
+}
+
+.fa-html5,
+.fa-css3-alt,
+.fa-sass {
+  color: $primaryTextColor;
+  font-size: $font-xll;
+}
+
+.buttons {
+  margin-top: 25px;
+  gap: 25px;
+}

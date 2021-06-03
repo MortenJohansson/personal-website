@@ -1,0 +1,97 @@
+// Desktop view
+.header {
+  background-color: $secondaryBackground;
+  width: 100%;
+  height: 110px;
+
+  // Hamburger open styles(for mobile views)
+  &.open {
+    .overlay {
+      display: block;
+    }
+    .header__toggle {
+      > span:first-child {
+        transform: rotate(45deg);
+      }
+      > span:nth-child(2) {
+        opacity: 0;
+      }
+      > span:last-child {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+
+  .overlay {
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient($secondaryBackground, transparent);
+  }
+
+  &__navbar {
+    position: relative;
+    height: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+
+  &__navImg {
+    height: 90px;
+    width: 90px;
+  }
+
+  // Hamburger toggle button
+  &__toggle {
+    > span {
+      display: block;
+      width: 26px;
+      height: 2px;
+      background-color: $secondaryTextColor;
+      transition: all 300ms ease-in-out;
+      transform-origin: 3px 1px;
+      &:not(:last-child) {
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  // Open Hamburger overlay menu
+  &__overlayMenu {
+    position: absolute;
+    width: calc(100% - 3rem);
+    left: 50%;
+    transform: translateX(-50%);
+    background: $secondaryBackground;
+    margin-top: 1.5rem;
+    padding: 1.625rem;
+    border-radius: 5px;
+
+    a {
+      display: block;
+      padding: 0.625rem;
+      color: $secondaryTextColor;
+      text-align: center;
+    }
+  }
+
+  &__navLinks {
+    font-size: $font-med;
+    color: $secondaryTextColor;
+
+    > a {
+      &:not(:last-child) {
+        padding-right: 25px;
+      }
+    }
+  }
+
+  // Mobil/Tablet view
+  @include breakpoint-down(large) {
+    padding: 0 10px;
+  }
+}

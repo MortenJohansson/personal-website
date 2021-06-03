@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@700&family=Oswald&family=Roboto&display=swap");
+
+// Colors
+$primaryBackground: #f2f2f2;
+$secondaryBackground: #333333;
+
+$primaryTextColor: #3b3b3b;
+$secondaryTextColor: #e6e6e6;
+
+// Fonts
+$headingFont: "Exo", sans-serif;
+$paragraphFont: "Roboto", sans-serif;
+$buttonFont: "Oswald", sans-serif;
+
+// Font sizes
+$font-sm: 1rem; // Paragraph
+$font-med: 1.125rem; // NavLinks
+$font-lg: 2rem; // Mobile Heading
+$font-xl: 2.5rem; // Tablet Heading
+$font-xll: 3rem; // Desktop Heading
+
+// Box Shadow
+$box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.3);

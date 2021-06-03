@@ -1,0 +1,17 @@
+.mobileHide {
+  @include breakpoint-down(medium) {
+    display: none;
+  }
+}
+
+.desktopHide {
+  @include breakpoint-up(large) {
+    display: none;
+  }
+}
+
+body {
+  &.no-scroll {
+    overflow: hidden;
+  }
+}

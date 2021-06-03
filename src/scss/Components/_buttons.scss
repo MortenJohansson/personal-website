@@ -1,0 +1,22 @@
+.button {
+  height: 55px;
+  width: 205px;
+
+  border: none;
+  border-radius: 25px;
+  box-shadow: $box-shadow;
+
+  background: linear-gradient(to right, #2aa885, #2a62ae);
+  color: $secondaryTextColor;
+  font-family: $buttonFont;
+  font-size: 1.5rem;
+
+  &--cardBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 150px;
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,27 @@
+.card {
+  height: 380px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: $box-shadow;
+
+  &__title {
+    font-size: 1.875rem;
+    color: $primaryTextColor;
+  }
+  &__subTitle {
+    text-align: center;
+    color: $primaryTextColor;
+  }
+  &__technologies {
+    color: $primaryTextColor;
+    padding-bottom: 15px;
+  }
+  &__technologyIcons {
+    gap: 15px;
+  }
+  &--schoolProject {
+    font-weight: bold;
+    color: red;
+  }
+}
