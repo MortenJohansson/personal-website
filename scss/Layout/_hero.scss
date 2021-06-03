@@ -3,7 +3,7 @@
   height: 650px;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/img/andrzej-kryszpiniuk-GXT7AWP-03s-unsplash.jpg") center/cover;
+    url("../img/andrzej-kryszpiniuk-GXT7AWP-03s-unsplash.jpg") center/cover;
 
   @include breakpoint-down(medium) {
     height: 450px;
