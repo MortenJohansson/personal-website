@@ -3,6 +3,20 @@
   color: $secondaryTextColor;
   padding: 60px 10px;
 
+  &__title {
+    @include breakpoint-down(small) {
+      font-size: $font-lg;
+    }
+
+    @include breakpoint-up(medium) {
+      font-size: $font-xl;
+    }
+
+    @include breakpoint-up(xlarge) {
+      font-size: $font-xll;
+    }
+  }
+
   &__grid {
     max-width: 1440px;
     margin: 0 auto;

@@ -8,7 +8,18 @@
     color: $primaryTextColor;
     margin: 0;
     text-align: center;
-    font-size: $font-lg;
+
+    @include breakpoint-down(small) {
+      font-size: $font-lg;
+    }
+
+    @include breakpoint-up(medium) {
+      font-size: $font-xl;
+    }
+
+    @include breakpoint-up(xlarge) {
+      font-size: $font-xll;
+    }
   }
 
   &__image {
@@ -18,12 +29,6 @@
     object-fit: cover;
     border-radius: 25px;
     box-shadow: $box-shadow;
-  }
-
-  @include breakpoint-up(medium) {
-    &__title {
-      font-size: $font-xl;
-    }
   }
   @include breakpoint-up(xlarge) {
     &__imageAndText {
