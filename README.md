@@ -150,7 +150,7 @@ About picture taken from https://unsplash.com/photos/TEemXOpR3cQ Photo by Tracy 
 
 ## Testing
 
-![the webpage on different devices](img/repsonsive_img.jpg "the webpage on different devices")
+![the webpage on different devices](img/responsive_img.jpg "the webpage on different devices")
 
 I tested this website through dev tools to check the responsiveness.
 **Brosers**
