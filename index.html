@@ -35,7 +35,7 @@
           <a href="#">Home</a>
           <a href="#about">About</a>
           <a href="#projects">Projects </a>
-          <a href="#">Technologies</a>
+          <!-- <a href="#">Technologies</a> -->
           <a href="#contact">Contact</a>
         </div>
       </nav>
@@ -44,7 +44,7 @@
         <a href="#" class="overlayNavLink">Home</a>
         <a href="#about" class="overlayNavLink">About</a>
         <a href="#projects" class="overlayNavLink">Projects</a>
-        <a href="#" class="overlayNavLink">Technologies</a>
+        <!-- <a href="#" class="overlayNavLink">Technologies</a> -->
         <a href="#contact" class="overlayNavLink">Contact</a>
       </div>
     </header>
@@ -86,7 +86,7 @@
     </section>
     <!-- Projects Section -->
     <section class="projects" id="projects">
-      <h1 class="projects__heading">Projects</h1>
+      <h1 class="projects__heading projects__title">Projects</h1>
       <p class="projects__heading">
         Here are a couple of my most recent projects
       </p>
@@ -162,7 +162,7 @@
         <br />
         Please fill out the form below and I will respond A.S.A.P.
       </p>
-      <form action="" class="contact__form flex flex-dir-col flex-ai-c">
+      <form class="form flex flex-dir-col flex-ai-c">
         <label for="fname"></label>
         <input
           type="text"
@@ -183,16 +183,27 @@
         <textarea
           name="subject"
           id="subject"
+          class="form__styling form__textarea"
           placeholder="Write something..."
         ></textarea>
-        <input type="submit" value="SEND MESSAGE" />
+        <input
+          type="submit"
+          class="button button--submit"
+          value="SEND MESSAGE"
+        />
       </form>
     </section>
     <!-- Footer -->
     <footer class="footer flex flex-jc-c flex-ai-c">
       <div class="footer__socials flex">
-        <i class="fab fa-linkedin"></i>
-        <i class="fab fa-github-square"></i>
+        <a
+          href="https://www.linkedin.com/in/morten-alexander-johansson-8a2326155/"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/MortenJohansson" target="_blank"
+          ><i class="fab fa-github-square"></i
+        ></a>
       </div>
       <img src="/img/MJLogo.svg" alt="MJ Logo" class="footer__logo" />
       <p class="footer__copyright">&#169; Morten Johansson 2021</p>
