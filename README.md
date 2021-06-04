@@ -46,9 +46,9 @@ Site Goals
 
 Single page website containing:
 
+- Hero section
 - About section
 - Portfolio section
-- Technology/skills section
 - Contact section
 
 About section:
@@ -62,13 +62,9 @@ Portfolio section:
 - each project has a description of the project
 - each project shows which technologies were used for that project
 
-Technolgies/Skills Section:
-
-- list of current knowledge of languages and tools
-
 Contact Section:
 
-- section of how to contact me and my "working" hours
+- section of how to contact me
 
 #### Features Left to Implement
 
@@ -82,19 +78,20 @@ Portfolio Section:
 
 My website currently consists of a single page app with 4 sections. The structure is like this:
 
-| Website              |
-| -------------------- |
-| Hero Section         |
-| About Section        |
-| Portfolio Section    |
-| Technologies Section |
-| Contact Section      |
+| Website           |
+| ----------------- |
+| Header Section    |
+| Hero Section      |
+| About Section     |
+| Portfolio Section |
+| Contact Section   |
+| Footer            |
 
 ---
 
 ## Skeleton Plane
 
-Insert Img here!
+![Website Mockup](img/adobeXDMockup.jpg "Website mockup")
 
 ---
 
@@ -108,6 +105,7 @@ The following fonts were used with this project:
 - Roboto
 
 Colors
+
 The following colors were used with this project:
 
 - #F2F2F2 as background color with #3B3B3B as text for contrast purposes
@@ -115,6 +113,7 @@ The following colors were used with this project:
 - Buttons have the gradient colors of #2AA885 to #2A62AE
 
 Images
+
 Hero Image was taken from https://unsplash.com/photos/GXT7AWP-03s Photo by Andrzej Kryszpiniuk
 About picture taken from https://unsplash.com/photos/TEemXOpR3cQ Photo by Tracy Adams
 
@@ -128,51 +127,96 @@ About picture taken from https://unsplash.com/photos/TEemXOpR3cQ Photo by Tracy 
   - For the styling of the site
 - SASS
   - For modular code, nested rules, and all that make SASS awesome.
+- JavaScript
+
+  - For the hamburger menu functionality on mobile
+
+- Git & GitHub
+
+  - For version control
+
+- Visual Studio Code
+  - Text editor used to code out the site
+- Adobe XD
+
+  - For use in creating wireframes and mockup
+
+- FontAwesome
+
+  - For Icons used throughout the site
+
+- CSS Tricks
+  - For Grid & Flex consultation
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+![the webpage on different devices](img/repsonsive_img.jpg "the webpage on different devices")
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+I tested this website through dev tools to check the responsiveness.
+**Brosers**
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+- Chrome
+- Firefox
+- Microsoft Edge
+- Safari for mobile
 
-1. Contact form:
-   1. Go to the "Contact Us" page
-   2. Try to submit the empty form and verify that an error message about the required fields appears
-   3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-   4. Try to submit the form with all inputs valid and verify that a success message appears.
+**Devices**
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- Desktop
+- Iphone 5/SE
+- Iphone 6/7/8 as well as their plus version
+- iPad/Ipad Pro
+- Pixel 2/2XL
+- Galaxy S5
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+During the testing I found no issues and it was responsive on all mentioned above.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+---
+
+**Contact Form**
+During testing of the contact section I noticed the submit button sent users to the top of the page. Due to deadline constraint I did not find a solution to this problem and made the submit button into an inert button and will attemt to fix before a proper live launch of the site.
+
+---
+
+**HTML and CSS Validation**
+I ran both HTML and the compiled sass and recieved no errors.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+I hosted this website on GitHub Pages using these steps:
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+- Accessed my github page
+- Accessed this projects Repository
+- Accessed the settings panel
+- Accessed the Pages section of the settings
+- Under source i chose the main branch and the /root folder
+- I clicked save
+- And it was live
 
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+---
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+There are no difference between the deployed verion and the development version.
+
+---
+
+To run this project locally. Follow these steps:
+
+- Access your github account
+- Enter this adress: https://github.com/MortenJohansson/personal-website in the serch bar
+- Click where it says in a green border "Code"
+- You can either use the Git Clone function to clone the repository to your harddrive
+- Or you can download it as a ZIP and extract it that way to your harddrive
 
 ## Credits
 
 - Animating and Javascript for hamburger menu. From Coder Coder's youtube channel
 
-### Content
-
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
 ### Media
 
-- The photos used in this site were obtained from ...
+- unsplash
+- screenshots of my previously done projects for the Project section
 
 ### Acknowledgements
 
 - Thanks to Effie Manyos for README inspiration
+- Thanks to Adegbenga Adeye (Mentor)
