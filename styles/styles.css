@@ -566,6 +566,7 @@ a :hover {
 .contact .form__textarea {
   height: 140px;
   resize: none;
+  margin-bottom: 30px;
 }
 
 .footer {
