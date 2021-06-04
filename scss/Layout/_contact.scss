@@ -4,8 +4,46 @@
   padding: 60px 10px;
 
   &__title {
+    @include breakpoint-down(small) {
+      font-size: $font-lg;
+    }
+
+    @include breakpoint-up(medium) {
+      font-size: $font-xl;
+    }
+
+    @include breakpoint-up(xlarge) {
+      font-size: $font-xll;
+    }
   }
   &__subTitle {
     text-align: center;
+  }
+  .form {
+    padding-top: 60px;
+
+    &__styling {
+      font-size: $font-sm;
+      font-family: $paragraphFont;
+      color: $primaryTextColor;
+      height: 50px;
+      width: 355px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      box-shadow: $box-shadow;
+
+      &:focus {
+        outline: none;
+      }
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+
+    &__textarea {
+      height: 140px;
+      resize: none;
+    }
   }
 }
