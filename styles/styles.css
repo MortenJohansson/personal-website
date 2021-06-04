@@ -185,6 +185,7 @@ a :hover {
   color: #e6e6e6;
   font-family: "Oswald", sans-serif;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .button--cardBtn {
